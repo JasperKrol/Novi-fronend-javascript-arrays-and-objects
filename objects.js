@@ -8,7 +8,7 @@ const personalInformation = {
   age: 30,
   dateOfBirth: 2871990,
 };
-console.log(personalInformation)
+console.log(personalInformation);
 
 // ===  Opdracht 2 ===
 // Zorg ervoor dat de volgende string in de terminal wordt gelogd:
@@ -32,7 +32,7 @@ console.log(product.series)
 product.color = "roze";
 console.log(product.color);
 // 3c. Log de tweede materiaalsoort ("kunststof") in de terminal
-console.log(product.material[1])
+console.log(product.material[1]);
 // 1d. Log de afmetingen (b-h-d) in de terminal
 console.log(product["b-h-d"]);
 
@@ -42,6 +42,6 @@ console.log(product["b-h-d"]);
 // ---- Verwachte uitkomst:
 // "De Smeg Waterkoker is gemaakt van roestvrijstaal en kunststof"
 const description = "De " + product.productName + " is gemaakt van " + product.material[0] + " en " + product.material[1];
-console.log(description)
+console.log(description);
 
 

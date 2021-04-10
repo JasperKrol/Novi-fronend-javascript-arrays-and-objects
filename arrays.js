@@ -36,7 +36,7 @@ console.log(colors[4],colors[1]);
 const twenties = [21,22,23,25,25];
 
 twenties[3] = 24;
-console.log(twenties)
+console.log(twenties);
 
 // ==========================================
 // 6a. Declareer een variabele met daarin een array met de waardes bladerdeeg, knoflook, spinazie
@@ -47,4 +47,4 @@ console.log(twenties)
 
 const ingredients = ["puffed pastry", "garlic", "spinach"];
 ingredients[0] = "curled pasta";
-console.log(ingredients, ingredients.length)
+console.log(ingredients, ingredients.length);

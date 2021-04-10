@@ -8,7 +8,7 @@
 
 for (let i = 0; i < 3; i++) {
      console.log("Hoera!")
-}
+};
 
 
 
@@ -28,7 +28,7 @@ for (let i = 0; i < 5; i++) {
     }else {
         console.log("klaar")
     }
-}
+};
 
 
 
@@ -49,8 +49,7 @@ for (let i = 0; i < 16; i++) {
     } else {
         console.log(i + " is oneven")
     }
-
-}
+};
 
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
@@ -62,6 +61,16 @@ for (let i = 0; i < 16; i++) {
 // [BONUSOPDRACHT] - optioneel: maak een for-loop die van 0 tot 9 loopt en de getallen 0 tot 9 logt.
 // Echter, vanaf het getal 3 komt er een > voor ieder getal te staan, en vanaf het getal 6 komt er >> voor ieder getal te staan.
 // Verwachte uitkomsten:
+
+for (let i = 0; i < 10; i++) {
+    if (i < 3){
+        console.log(i)
+    }else if (i > 2 && i < 6){
+        console.log("> "+i)
+    }else{
+        console.log(">> "+i)
+    }
+};
 // 0
 // 1
 // 2
@@ -72,7 +81,8 @@ for (let i = 0; i < 16; i++) {
 // >> 7
 // >> 9
 // ==========================================
-
+//tweede optie
+/*
 for (let i = 0; i < 10; i++) {
     if (i < 3){
         console.log(i);
@@ -82,4 +92,4 @@ for (let i = 0; i < 10; i++) {
     } if (i > 5){
         console.log(">> "+ i)
     }
-}
+};*/
